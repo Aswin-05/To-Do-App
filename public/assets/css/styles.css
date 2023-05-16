@@ -1,0 +1,138 @@
+
+a{
+  text-decoration: none;
+}
+
+body {
+  background-color: #fdcb6e;
+  min-height: 70vh;
+  padding: 1rem;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: hsl(198, 1%, 29%);
+  font-family: "Architects Daughter", cursive;
+  text-align: center;
+  font-size: 130%;
+}
+
+.header{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 60px;
+  background-color: rgb(247, 181, 59);
+  box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.5);
+  z-index: 997;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content:flex-start;
+}
+
+.header .logo{
+  letter-spacing: 2px;
+  justify-content: left;
+  padding-left: 50px;
+  display: flex;
+  padding-top: 15px;
+}
+
+.header .logo a{
+  color: hsla(260, 2%, 25%, 0.7) ;
+  font-size: 22px;
+  padding-left: 5px;
+  font-weight: 700;
+}
+
+.container {
+  margin-top: 70px;
+  width: 100%;
+  height: auto;
+  min-height: 500px;
+  max-width: 500px;
+  min-width: 250px;
+  background: #f1f5f8;
+  background-image: radial-gradient(#bfc0c1 7.2%, transparent 0);
+  background-size: 25px 25px;
+  border-radius: 20px;
+  box-shadow: 4px 3px 7px 2px #00000040;
+  padding: 1rem;
+  box-sizing: border-box;
+}
+.heading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+.heading h1 {
+  transform: rotate(2deg);
+  padding: 0.2rem 1.2rem;
+  border-radius: 20% 5% 20% 5%/5% 20% 25% 20%;
+  background-color: #e99c0e;
+  font-size: 1.5rem;
+}
+
+.form input {
+  box-sizing: border-box;
+  background-color: transparent;
+  padding: 0.7rem;
+  border-bottom-right-radius: 15px 3px;
+  border-bottom-left-radius: 3px 15px;
+  border: solid 3px transparent;
+  border-bottom: dashed 3px #fdcb6e;
+  font-family: "Architects Daughter", cursive;
+  font-size: 1rem;
+  color: hsla(260, 2%, 25%, 0.7);
+  width: 70%;
+  margin-bottom: 20px;
+}
+
+button {
+  padding: 0;
+  border: none;
+  margin-left: 10px;
+  font-family: "Architects Daughter", cursive;
+  text-decoration: none;
+  border-radius: 50px;
+  background-color: #ffeaa7;
+}
+button .plus-icon {
+  background: #f1f5f8;
+  display: block;
+  border-radius: 5px;
+  color: #e99c0e ;
+  border-radius: 50px;
+  
+}
+
+button .plus-icon:hover{
+  background-color: #e99c0e;
+  color: #f1f5f8;
+}
+
+li {
+  text-align: left;
+  position: relative;
+  padding: 0.5rem;
+}
+
+.footer{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #e99c0e;
+}
+
+.footer p{
+  position:static;
+  color:hsla(260, 2%, 25%, 0.7);
+  font-size: 14px;
+}
+
+.footer p span{
+  color: black;
+}
